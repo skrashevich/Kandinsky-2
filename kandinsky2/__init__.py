@@ -149,7 +149,7 @@ def get_kandinsky2_1(
 def get_kandinsky2(
     device,
     task_type="text2img",
-    cache_dir="/tmp/kandinsky2",
+    cache_dir="/root/.cache",
     use_auth_token=None,
     model_version="2.1",
     use_flash_attention=False,
